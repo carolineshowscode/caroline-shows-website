@@ -9,16 +9,22 @@ export default function Home() {
           <p> I'm a software engineer and I love to build things. </p>
         </div>
         <div>
-          <Image src='/caroline.png' width={560} height={620} className='rounded-3xl' alt='Caroline' />
+          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl sm:w-1/2' alt='Caroline' />
         </div>
       </div>
-      <div className='bg-secondary border-b'>
+      <div className='bg-secondary border-b text-wrap'>
         <p>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row'>
-        <div>
-          <h2>Tech Highlights</h2>
+        <div className='grid grid-cols-3 rounded-3xl'>
+          <Image src='/reacticon.png' width={100} height={100} alt='React Logo' />
+          <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' />
+          <Image src='/graphqllogo.png' width={100} height={100} alt='GraphQL Logo' />
+          <Image src='/jslogo.png' width={100} height={100} alt='JS Logo' />
+          <Image src='/tslogo.png' width={100} height={100} alt='TS Logo' />
+          <Image src='/nextjslogo.png' width={100} height={100} alt='Next.js Logo' />
+          <Image src='/tailwindcsslogo.png' width={100} height={100} alt='Tailwind Logo' />
         </div>
         <div>
           <ol className="relative border-s border-grey dark:border-darkGrey">                  
@@ -43,8 +49,8 @@ export default function Home() {
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2020</time>
-              <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
+              <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Graduated from Florida State University</h3>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a marketing degree and had seven successful years in the hotel sales industry before going back to school to make a career change</p>
             </li>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
