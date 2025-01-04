@@ -5,7 +5,7 @@ export default function Home() {
     <div className='flex flex-col'>
       <div className='flex border-b bg-primary'>
         <div className='grow'>
-          <h1>Hi, I'm Caroline.</h1>
+          <h1 className='font-Helvetica'>Hi, I'm Caroline.</h1>
           <p> I'm a software engineer and I love to build things. </p>
         </div>
         <div>
