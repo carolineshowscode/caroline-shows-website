@@ -2,11 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playwrite_IN } from "next/font/google";
 import "./globals.css";
 
-const playwriteIN = Playwrite_IN({
-  variable: "--font-playwrite-in",
-  weight: ['400'],
-});
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,6 +10,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const playwrite = Playwrite_IN({
+  variable: "--font-playwrite-in",
+  weight: ['400'],
 });
 
 export const metadata: Metadata = {
@@ -28,12 +28,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${playwrite.className}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playwriteIN.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>

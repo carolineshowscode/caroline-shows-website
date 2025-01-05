@@ -26,6 +26,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        playwrite: ['Playwrite IN', 'serif'],
+      },
     },
   },
   plugins: [],
