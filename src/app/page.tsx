@@ -3,9 +3,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className='flex flex-col'>
-      <div className='flex border-b bg-primary'>
-        <div className='grow'>
-          <h1 className='font-playwrite'>Hi, I'm Caroline.</h1>
+      <div className='flex items-center justify-between border-b bg-primary'>
+        <div className='text-lg'>
+          <h1 className='font-playwrite text-xl sm:text-5xl'>Hi, I'm Caroline.</h1>
           <p> I'm a software engineer and I love to build things. </p>
         </div>
         <div>

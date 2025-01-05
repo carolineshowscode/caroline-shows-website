@@ -28,6 +28,7 @@ export default {
       },
       fontFamily: {
         playwrite: ['Playwrite IN', 'serif'],
+        geist: ['Geist', 'sans-serif'],
       },
     },
   },
