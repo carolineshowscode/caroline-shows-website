@@ -12,7 +12,7 @@ export default function Home() {
           <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl sm:w-1/2' alt='Caroline' />
         </div>
       </div>
-      <div className='bg-secondary border-b text-wrap'>
+      <div className='font-playwrite bg-secondary border-b text-wrap'>
         <p>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
