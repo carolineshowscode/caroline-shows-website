@@ -50,7 +50,7 @@ export default function Home() {
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2020</time>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Graduated from Florida State University</h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a marketing degree and had seven successful years in the hotel sales industry before going back to school to make a career change</p>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a marketing degree and had seven successful years in sales before going back to school to make a career change</p>
             </li>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
