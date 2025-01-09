@@ -3,21 +3,21 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className='flex flex-col'>
-      <div className='flex items-center justify-between border-b bg-primary'>
-        <div className='text-lg'>
+      <div className='flex border-b bg-primary p-4 sm:'>
+        <div className='text-lg basis-1/2 sm:flex justify-center'>
           <h1 className='font-playwrite text-xl sm:text-5xl'>Hi, I'm Caroline.</h1>
           <p> I'm a software engineer and I love to build things. </p>
         </div>
         <div>
-          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl sm:w-1/2' alt='Caroline' />
+          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl sm:w-3/4' alt='Caroline' />
         </div>
       </div>
-      <div className='font-playwrite bg-secondary border-b text-wrap'>
+      <div className='bg-secondary border-b text-wrap p-4'>
         <p>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
-      <div className='flex flex-row'>
-        <div className='grid grid-cols-3 rounded-3xl'>
+      <div className='flex flex-row p-4'>
+        <div className='bg-primary grid grid-cols-3 rounded-3xl max-h-96'>
           <Image src='/reacticon.png' width={100} height={100} alt='React Logo' />
           <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' />
           <Image src='/graphqllogo.png' width={100} height={100} alt='GraphQL Logo' />
