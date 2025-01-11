@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Nav from "@/components/nav";
 import { Geist, Playwrite_IN } from "next/font/google";
 import "./globals.css";
 
@@ -27,10 +28,9 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body
-        // className={`${geistSans.className} antialiased`}
-      >
-        {children}
+      <body>
+        <Nav />
+        <main>{children}</main>
       </body>
     </html>
   );
