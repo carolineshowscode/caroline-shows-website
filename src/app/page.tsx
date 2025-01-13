@@ -17,8 +17,9 @@ export default function Home() {
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row p-4'>
-        <div className='bg-primary grid grid-cols-3 rounded-3xl max-h-96'>
-          <Image src='/reacticon.png' width={100} height={100} alt='React Logo' />
+        <div className='bg-primary grid grid-cols-1 rounded-3xl max-h-min p-4 w-full'>
+          <h2 className='text-center font-semibold'>Technical Skills</h2>
+          <Image src='/reacticon.png' width={100} height={100} alt='React Logo' className=''/>
           <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' />
           <Image src='/graphqllogo.png' width={100} height={100} alt='GraphQL Logo' />
           <Image src='/jslogo.png' width={100} height={100} alt='JS Logo' />
@@ -27,7 +28,7 @@ export default function Home() {
           <Image src='/tailwindcsslogo.png' width={100} height={100} alt='Tailwind Logo' />
         </div>
         <div>
-          <ol className="relative border-s border-grey dark:border-darkGrey">                  
+          <ol className="relative border-s border-grey dark:border-darkGrey ml-4">                  
             <li className="mb-10 ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2024</time>
