@@ -9,7 +9,7 @@ export default function Home() {
           <p> I'm a software engineer and I love to build things. </p>
         </div>
         <div>
-          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl sm:w-3/4' alt='Caroline' />
+          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl sm:w-3/4' alt='Caroline' />
         </div>
       </div>
       <div className='bg-secondary border-b text-wrap p-4'>

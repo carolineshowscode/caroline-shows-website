@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 export default function Nav() {
   return (
-    <nav className=''>
-      <ul className='flex space-x-4 m-0'>
-        <li className='bg-primary p-2 hover:scale-110'>
+    <nav className='border-0 bg-primary'>
+      <ul className='flex p-4'>
+        <li className='bg-darkBlue p-2 skew-x-12 shadow-2xl shadow-darkBlue border hover:scale-110'>
           <Link href="/">Home</Link>
         </li>
-        <li className='bg-secondary p-2 hover:scale-110'>
+        <li className='bg-mediumBlue p-2 skew-x-12 shadow-2xl border-y hover:scale-110'>
           <Link href="/about">About</Link>
         </li>
-        <li className='p-2 hover:scale-110'>
+        <li className='bg-lightBlue p-2 skew-x-12 shadow-2xl border hover:scale-110'>
           <a href='mailto:caroline.e.shows@gmail.com'>Contact Me</a>
         </li>
       </ul>

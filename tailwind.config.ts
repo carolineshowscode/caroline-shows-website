@@ -20,6 +20,9 @@ export default {
       grey: '#999999',
       darkGrey: '#666666',
       white: '#FCFCFC',
+      darkBlue: '#273e69',
+      mediumBlue: '#4c6491',
+      lightBlue: '#97a8c7'
     },
     extend: {
       colors: {
