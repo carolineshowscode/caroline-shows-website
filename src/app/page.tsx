@@ -5,8 +5,8 @@ export default function Home() {
     <div className='flex flex-col'>
       <div className='flex border-b bg-primary p-4 sm:items-center'>
         <div className='text-lg basis-1/2 sm:flex flex-col items-center content-center'>
-          <h1 className='font-playwrite text-xl sm:text-5xl'>Hi, I'm Caroline.</h1>
-          <p className='sm:m-4'> I'm a software engineer and I love to build things. </p>
+          <h1 className='font-playwrite text-xl sm:text-5xl'>Hi, I&apos;m Caroline.</h1>
+          <p className='sm:m-4'> I&apos;m a software engineer and I love to build things. </p>
         </div>
         <div>
           <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl sm:w-3/4' alt='Caroline' />
@@ -17,7 +17,7 @@ export default function Home() {
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row p-4'>
-        <div className='bg-primary grid grid-cols-1 rounded-3xl max-h-min p-4 w-full sm:flex flex-col items-center w-1/5 max-h-screen'>
+        <div className='bg-primary grid grid-cols-1 rounded-3xl max-h-min p-4 w-full sm:flex flex-col items-center w-1/4 max-h-screen'>
           <h2 className='text-center font-semibold sm:text-xl'>Technical Skills</h2>
           <Image src='/reacticon.png' width={100} height={100} alt='React Logo' className='sm:m-4'/>
           <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' className='sm:m-4'/>
