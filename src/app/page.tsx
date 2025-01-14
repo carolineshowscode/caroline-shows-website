@@ -17,17 +17,17 @@ export default function Home() {
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row p-4'>
-        <div className='bg-primary grid grid-cols-1 rounded-3xl max-h-min p-4 w-full sm:flex flex-col items-center w-1/4 max-h-screen'>
+        <div className='bg-primary grid grid-cols-1 rounded-3xl w-full max-w-max p-2 sm:flex flex-col items-center w-1/4 max-h-screen'>
           <h2 className='text-center font-semibold sm:text-xl'>Technical Skills</h2>
-          <Image src='/reacticon.png' width={100} height={100} alt='React Logo' className='sm:m-4'/>
-          <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' className='sm:m-4'/>
-          <Image src='/graphqllogo.png' width={100} height={100} alt='GraphQL Logo' className='sm:m-4'/>
-          <Image src='/jslogo.png' width={100} height={100} alt='JS Logo' className='sm:m-4'/>
-          <Image src='/tslogo.png' width={100} height={100} alt='TS Logo' className='sm:m-4'/>
-          <Image src='/nextjslogo.png' width={100} height={100} alt='Next.js Logo' className='sm:m-4'/>
-          <Image src='/tailwindcsslogo.png' width={100} height={100} alt='Tailwind Logo' className='sm:m-4'/>
+          <Image src='/reacticon.png' width={100} height={100} alt='React Logo' className='mx-auto sm:m-4'/>
+          <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' className='mx-auto sm:m-4'/>
+          <Image src='/graphqllogo.png' width={100} height={100} alt='GraphQL Logo' className='mx-auto sm:m-4'/>
+          <Image src='/jslogo.png' width={100} height={100} alt='JS Logo' className='mx-auto sm:m-4'/>
+          <Image src='/tslogo.png' width={100} height={100} alt='TS Logo' className='mx-auto sm:m-4'/>
+          <Image src='/nextjslogo.png' width={100} height={100} alt='Next.js Logo' className='mx-auto sm:m-4'/>
+          <Image src='/tailwindcsslogo.png' width={100} height={100} alt='Tailwind Logo' className='mx-auto sm:m-4'/>
         </div>
-        <div>
+        <div className='w-full'>
           <ol className="relative border-s border-grey dark:border-darkGrey ml-4">                  
             <li className="mb-10 ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
