@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "@/components/nav";
-import { Geist, Playwrite_IN } from "next/font/google";
+import { Playwrite_IN } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
 const playwrite = Playwrite_IN({
   variable: "--font-playwrite-in",
