@@ -7,7 +7,7 @@ export default function ResumeButton() {
     }
 
     return(
-        <button className='rounded-xl b-4 b-black shadow-blackSolid bg-white w-64 h-32' onClick={handleClick}>Resume</button>
+        <button className='rounded-xl border-4 border-black shadow-blackSolid bg-primary w-3/4 hover:duration-500 hover:shadow-none sm:w-1/4' onClick={handleClick}>Resume</button>
         
     )
 } 
