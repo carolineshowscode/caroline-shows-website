@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ResumeButton from '@/components/resumeButton';
 
 export default function Home() {
   return (
@@ -7,12 +8,13 @@ export default function Home() {
         <div className='text-lg basis-1/2 sm:flex flex-col items-center content-center'>
           <h1 className='font-playwrite text-xl sm:text-5xl'>Hi, I&apos;m Caroline.</h1>
           <p className='sm:m-4'> I&apos;m a software engineer and I love to build things. </p>
+          <ResumeButton />
         </div>
         <div>
-          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl sm:w-3/4' alt='Caroline' />
+          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl w-full sm:w-3/4' alt='Caroline' />
         </div>
       </div>
-      <div className='bg-secondary border-b text-wrap p-4 sm:flex justify-center'>
+      <div className='bg-secondary border-b text-wrap p-4 sm:flex flex-col justify-center'>
         <p className='sm:w-1/2'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
@@ -38,26 +40,34 @@ export default function Home() {
             <li className="mb-10 ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2022</time>
-              <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Software Engineer I</h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Developed React components, integrated APIs, and supported rebranding efforts to enhance functionality, performance, and business alignment at an Edtech company.</p>
+              <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
             </li>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2021</time>
+              <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Software Engineer I</h3>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Developed React components, integrated APIs, and supported rebranding efforts to enhance functionality, performance, and business alignment at an Edtech company.</p>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Graduated from Turing School of Software & Design</h3>
               <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Completed the 1800+ hour, accredited front-end software development program</p>
             </li>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2020</time>
-              <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Graduated from Florida State University</h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a marketing degree and had seven successful years in sales before going back to school to make a career change</p>
+              <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
+            </li>
+            <li className="ms-4">
+              <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2015</time>
+              <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
             </li>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2013</time>
-              <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
+              <h3 className="text-lg font-semibold text-darkGrey dark:text-white">Graduated from Florida State University</h3>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a marketing degree and had seven successful years in sales before going back to school to make a career change</p>
             </li>
           </ol>
         </div>
