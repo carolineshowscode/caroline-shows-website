@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import ResumeButton from '@/components/resumeButton';
+import { ResumeButton } from '@/components/ResumeButton';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div className='flex flex-col dark:text-black'>
       <div className='flex border-b-2 bg-primary p-4 sm:items-center'>
@@ -74,4 +74,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;
