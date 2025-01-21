@@ -1,5 +1,5 @@
+import NumberFact from "@/components/numberFact";
 import ResumeButton from "@/components/resumeButton";
-import RonSwansonQuote from "@/components/ronSwansonQuote";
 import Image from 'next/image';
 
 export default function Home() {
@@ -73,7 +73,7 @@ export default function Home() {
           </ol>
         </div>
       </div>
-      < RonSwansonQuote />
+      <NumberFact />
     </div>
   );
 };
