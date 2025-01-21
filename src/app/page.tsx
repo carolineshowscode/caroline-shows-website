@@ -2,7 +2,7 @@ import Image from 'next/image';
 import ResumeButton from '@/components/ResumeButton';
 import RonSwansonQuote from '@/components/RonSwansonQuote';
 
-const Home: React.FC = () => {
+export default function Home() {
   return (
     <div className='flex flex-col dark:text-black'>
       <div className='flex border-b-2 bg-primary p-4 sm:items-center'>
@@ -77,5 +77,3 @@ const Home: React.FC = () => {
     </div>
   );
 };
-
-export default Home;

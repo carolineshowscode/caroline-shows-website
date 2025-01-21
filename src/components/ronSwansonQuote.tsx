@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const RonSwansonQuote: React.FC = () => {
+export default function RonSwansonQuote() {
     const [quote, setQuote ] = useState<string>('');
     const [loading, setLoading] = useState<boolean>(true);
 
@@ -31,5 +31,3 @@ const RonSwansonQuote: React.FC = () => {
         </div>
     );
 };
-
-export default RonSwansonQuote;

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Nav: React.FC = () => {
+export default function Nav() {
   return (
     <nav className='border-0 bg-primary font-dosis dark:text-black sm:text-xl'>
       <ul className='flex p-4 sm:p-8'>
@@ -17,5 +17,3 @@ const Nav: React.FC = () => {
     </nav>
   );
 };
-
-export default Nav;
