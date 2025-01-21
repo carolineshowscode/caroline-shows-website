@@ -1,5 +1,5 @@
-import ResumeButton from "@/components/ResumeButton";
-import RonSwansonQuote from "@/components/RonSwansonQuote";
+import ResumeButton from "@/components/resumeButton";
+import RonSwansonQuote from "@/components/ronSwansonQuote";
 import Image from 'next/image';
 
 export default function Home() {
