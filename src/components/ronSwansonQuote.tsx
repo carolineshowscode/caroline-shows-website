@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-export const RonSwansonQuote: React.FC = () => {
+const RonSwansonQuote: React.FC = () => {
     const [quote, setQuote ] = useState<string>('');
     const [loading, setLoading] = useState<boolean>(true);
 
@@ -31,3 +31,5 @@ export const RonSwansonQuote: React.FC = () => {
         </div>
     );
 };
+
+export default RonSwansonQuote;

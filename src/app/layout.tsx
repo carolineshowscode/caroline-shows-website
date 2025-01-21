@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nav } from "@/components/Nav";
+import Nav from "@/components/Nav";
 import { Playwrite_IN, Dosis } from "next/font/google";
 import "./globals.css";
 

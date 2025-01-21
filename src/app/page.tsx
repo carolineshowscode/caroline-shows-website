@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { ResumeButton } from '@/components/ResumeButton';
-import { RonSwansonQuote } from '@/components/RonSwansonQuote';
+import ResumeButton from '@/components/ResumeButton';
+import RonSwansonQuote from '@/components/RonSwansonQuote';
 
 const Home: React.FC = () => {
   return (
