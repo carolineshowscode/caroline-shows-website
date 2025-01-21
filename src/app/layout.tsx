@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Playwrite_IN, Dosis } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/Nav";
+import Nav from "@/components/nav";
 
 
 const playwrite = Playwrite_IN({
