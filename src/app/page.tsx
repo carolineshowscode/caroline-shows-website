@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { ResumeButton } from '@/components/ResumeButton';
+import { RonSwansonQuote } from '@/components/RonSwansonQuote';
 
 const Home: React.FC = () => {
   return (
@@ -14,12 +15,12 @@ const Home: React.FC = () => {
           <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl w-full m-2 sm:w-3/4' alt='Caroline' />
         </div>
       </div>
-      <div className='bg-secondary border-b-2 text-wrap p-4 sm:flex flex-col justify-center'>
-        <p className='sm:w-1/2'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
+      <div className='bg-accent border-b-2 text-wrap p-4 sm:flex flex-col justify-center'>
+        <p className='sm:w-1/2 text-black font-dosis'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row p-4 dark:bg-white'>
-        <div className='bg-primary border-4 grid grid-cols-1 rounded-3xl w-full max-w-max p-2 sm:flex flex-col items-center w-1/4 max-h-screen'>
+        <div className='bg-accent border-4 grid grid-cols-1 rounded-3xl w-full max-w-max p-2 sm:flex flex-col items-center w-1/4 max-h-screen'>
           <h2 className='text-center font-semibold sm:text-xl'>Technical Skills</h2>
           <Image src='/reacticon.png' width={100} height={100} alt='React Logo' className='mx-auto sm:m-4'/>
           <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' className='mx-auto sm:m-4'/>
@@ -72,6 +73,7 @@ const Home: React.FC = () => {
           </ol>
         </div>
       </div>
+      < RonSwansonQuote />
     </div>
   );
 };

@@ -9,5 +9,5 @@ export const ResumeButton: React.FC = () => {
     return(
         <button className='rounded-xl border-4 border-black shadow-blackSolid bg-primary m-2 w-3/4 hover:duration-500 hover:shadow-none sm:w-1/4' onClick={handleClick}>Resume</button>
         
-    )
-} 
+    );
+}; 
