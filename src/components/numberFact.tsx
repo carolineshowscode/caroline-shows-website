@@ -33,8 +33,9 @@ export default function NumberFact() {
     
 
     return (
-        <div>
-            <p>{fact}</p>
+        <div className='font-playwrite bg-primary w-full h-1/4 border-t-2 p-4 text-center dark:bg-primary dark:text-black'>
+            <p className='m-2'>{fact}</p>
+            <p className='font-dosis'>random number facts provided by numbersapi.com</p>
         </div>
     )
 };
