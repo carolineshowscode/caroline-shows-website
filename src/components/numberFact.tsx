@@ -15,7 +15,7 @@ export default function NumberFact() {
         const fetchQuote = async () => {
             try {
                 const num = getRandomInt();
-                const response = await fetch(`http://numbersapi.com/${num}`);
+                const response = await fetch(`https://numbersapi.com/${num}`);
                 const data = response.text();
                 setFact(await data);
                 setLoading(false);
