@@ -1,7 +1,7 @@
 # Tic Tac Toe
 
 ### Description
-Who will win the battle for the Scarlet Witch's power?! Choose your player and battle it out in an epic game of Tic Tac Toe on this week's episode of WandaVision, Wanda vs Agatha.
+A personal website application 
 
 ### How it Works
 - Users play the game by choosing their WandaVision character(aka Player 1 or Player 2)
@@ -11,29 +11,17 @@ Who will win the battle for the Scarlet Witch's power?! Choose your player and b
 
 
 ### Technologies Implemented:
-- Javascript
-- HTML
-- CSS
+- Next.js
+- Typescript
+- Tailwind CSS
 
 ### Future Updates
-- A game restart button
-- Local storage clear button
-- Reset game without calling a window reset
-- Ability to choose player character
+
 
 ******************************************************************
 
 #### Contributors:
 - Caroline Eubanks
-
-### Game Play:
-
-### Local Storage:
-
-
-
-
-
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
