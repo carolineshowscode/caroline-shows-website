@@ -1,4 +1,4 @@
-import NumberFact from "@/components/numberFact";
+import InspirationalQuote from "@/components/inspirationalQuote";
 import ResumeButton from "@/components/resumeButton";
 import Image from 'next/image';
 
@@ -73,7 +73,7 @@ export default function Home() {
           </ol>
         </div>
       </div>
-      <NumberFact />
+      <InspirationalQuote />
     </div>
   );
 };

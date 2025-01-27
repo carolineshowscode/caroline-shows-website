@@ -7,9 +7,18 @@ export default function InspirationalQuote() {
     const [loading, setLoading] = useState<boolean>(true);
 
     useEffect(() => {
+        const apiKey = process.env.NEXT_PUBLIC_RAPID_API_KEY;
+        const url = 'https://quotes-api12.p.rapidapi.com/quotes/random?type=selfconfidence';
+        const options = {
+            method: 'GET',
+            headers: {
+                'x-rapidapi-key': apiKey,
+                'x-rapidapi-host': 'quotes-api12.p.rapidapi.com'
+            }
+        };
         const fetchQuote = async () => {
         try {
-        const response = await fetch('s');
+        const response = await fetch(url, options);
         const data = await response.json();
         setQuote(data);
         setLoading(false);
