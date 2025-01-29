@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       </div>
       <div className='bg-accent border-b-2 text-wrap p-4 sm:flex flex-col justify-center'>
-        <p className='sm:w-1/2 text-black font-dosis'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
+        <p className='flex sm:w-1/2 text-black font-dosis'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row p-4 dark:bg-white'>
