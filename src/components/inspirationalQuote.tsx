@@ -2,13 +2,19 @@
 
 import { useEffect, useState } from 'react';
 
+interface Quote {
+    author: string;
+    quote: string;
+    type: string;
+  }
+
 export default function InspirationalQuote() {
-    const [quote, setQuote ] = useState<string>('');
+    const [quote, setQuote ] = useState<Quote>({author: '', quote: '', type: ''});
     const [loading, setLoading] = useState<boolean>(true);
 
     useEffect(() => {
-        const apiKey = process.env.NEXT_PUBLIC_RAPID_API_KEY;
-        const url = 'https://quotes-api12.p.rapidapi.com/quotes/random?type=selfconfidence';
+        const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+        const url = process.env.NEXT_PUBLIC_API_URL;
         const options = {
             method: 'GET',
             headers: {
@@ -20,6 +26,7 @@ export default function InspirationalQuote() {
         try {
         const response = await fetch(url, options);
         const data = await response.json();
+        console.log(data);
         setQuote(data);
         setLoading(false);
         } catch (error) {
@@ -35,8 +42,8 @@ export default function InspirationalQuote() {
     
     return (
         <div className='font-playwrite bg-primary w-full h-1/4 border-t-2 p-4 text-center dark:bg-primary dark:text-black'>
-            <p>{`"${quote}"`}</p>
-            <p className='m-2'>~ Ron Swanson</p>
+            <p>{`"${quote.quote}"`}</p>
+            <p className='m-2'>{`~${quote.author}`}</p>
         </div>
     );
 };
