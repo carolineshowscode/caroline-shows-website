@@ -31,44 +31,69 @@ export default function Home() {
           <Image src='/tailwindcsslogo.png' width={100} height={100} alt='Tailwind Logo' className='mx-auto sm:m-4'/>
         </div>
         <div className='w-full'>
-          <ol className="relative border-s border-grey dark:border-darkGrey ml-4">                  
-            <li className="mb-10 ms-4">
+        <h2 className='text-xl text-center font-extrabold'>Career Timeline</h2>
+          <ol className="relative border-grey border-s dark:border-darkGrey ml-4">                  
+            <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2024</time>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-darkGrey">Software Engineer II</h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Enhanced reimbursement, tuition assistance, and student loan systems by leading front-end development, improving infrastructure and security, and optimizing documentation, testing, and maintainability at an Edtech company.</p>
-            </li>
-            <li className="mb-10 ms-4">
-              <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2022</time>
-              <h3 className="text-lg font-semibold text-darkGrey dark:text-darkGrey"></h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
-            </li>
+              <p className="text-base font-normal text-darkGrey dark:text-grey">Enhanced reimbursement, tuition assistance, and student loan systems by leading front-end development, improving infrastructure and security, and optimizing documentation, testing, and maintainability at an Edtech company.</p>
+            </li> 
+              <ol className="relative border-grey border-s dark:border-darkGrey ml-4">     
+                <li className="ms-4 h-10">
+                  <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2023</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+                <li className="ms-4 h-10">
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2022</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+              </ol>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2021</time>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-darkGrey">Software Engineer I</h3>
               <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Developed React components, integrated APIs, and supported rebranding efforts to enhance functionality, performance, and business alignment at an Edtech company.</p>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-darkGrey">Graduated from Turing School of Software & Design</h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Completed the 1800+ hour, accredited front-end software development program</p>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Went back to school full time and completed an 1800+ hour, accredited front-end software development program</p>
             </li>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2020</time>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
+              <p className="text-base font-normal text-darkGrey dark:text-grey"></p>
             </li>
-            <li className="ms-4">
-              <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2015</time>
-              <h3 className="text-lg font-semibold text-darkGrey dark:text-white"></h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey"></p>
-            </li>
+              <ol className="relative border-grey border-s dark:border-darkGrey ml-4">
+                <li className="ms-4 h-10">
+                  <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2019</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+                <li className="ms-4 h-10">
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2018</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+                <li className="ms-4 h-10">
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2017</div>
+                  <p className="mb-4 ml-4 4text-base font-normal text-darkGrey dark:text-grey">Seven years of success in hotel sales, excelling as a sales professional and stepping into leadership roles.</p>
+                </li>
+                <li className="ms-4 h-10">
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2016</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+                <li className="ms-4 h-10">
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2015</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+                <li className="ms-4 h-10">
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2014</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                </li>
+              </ol>
             <li className="ms-4">
               <div className="absolute w-3 h-3 bg-grey rounded-full mt-1.5 -start-1.5 border border-white dark:border-darkGrey dark:bg-darkGrey"></div>
               <time className="mb-1 text-sm font-normal leading-none text-grey dark:text-darkGrey">2013</time>
               <h3 className="text-lg font-semibold text-darkGrey dark:text-darkGrey">Graduated from Florida State University</h3>
-              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a marketing degree and had seven successful years in sales before going back to school to make a career change</p>
+              <p className="mb-4 text-base font-normal text-darkGrey dark:text-grey">Graduated with a B.S. in Marketing</p>
             </li>
           </ol>
         </div>

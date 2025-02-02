@@ -26,7 +26,6 @@ export default function InspirationalQuote() {
         try {
         const response = await fetch(url, options);
         const data = await response.json();
-        console.log(data);
         setQuote(data);
         setLoading(false);
         } catch (error) {
