@@ -41,12 +41,12 @@ export default function Home() {
             </li> 
               <ol className="relative border-grey border-s dark:border-darkGrey ml-4">     
                 <li className="ms-4 h-10">
-                  <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2023</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                  <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2023</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
                 <li className="ms-4 h-10">
-                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2022</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2022</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
               </ol>
             <li className="ms-4">
@@ -65,28 +65,28 @@ export default function Home() {
             </li>
               <ol className="relative border-grey border-s dark:border-darkGrey ml-4">
                 <li className="ms-4 h-10">
-                  <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2019</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                  <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2019</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
                 <li className="ms-4 h-10">
-                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2018</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2018</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
                 <li className="ms-4 h-10">
-                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2017</div>
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2017</div>
                   <p className="mb-4 ml-4 4text-base font-normal text-darkGrey dark:text-grey">Seven years of success in hotel sales, excelling as a sales professional and stepping into leadership roles.</p>
                 </li>
                 <li className="ms-4 h-10">
-                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2016</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2016</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
                 <li className="ms-4 h-10">
-                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2015</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2015</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
                 <li className="ms-4 h-10">
-                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-darkGrey">2014</div>
-                  <p className="mb-4 text-base font-normal text-white dark:text-grey">x</p>
+                <div className="absolute mt-1.5 -start-3 bg-white text-grey text-sm dark:border-darkGrey dark:bg-white">2014</div>
+                  <p className="mb-4 text-base font-normal text-white dark:text-white">x</p>
                 </li>
               </ol>
             <li className="ms-4">
