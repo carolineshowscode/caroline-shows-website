@@ -11,8 +11,8 @@ export default function Home() {
           <p className='sm:m-4 text-left mt-2'> I&apos;m a software engineer and I love to build things. </p>
           <ResumeButton />
         </div>
-        <div>
-          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl w-full m-2 sm:w-3/4' alt='Caroline' />
+        <div className='h-1/2'>
+          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl w-full h-1/2 m-2 sm:w-3/4' alt='Caroline' />
         </div>
       </div>
       <div className='bg-accent border-b-2 text-wrap p-4 sm:flex flex-col justify-center'>
