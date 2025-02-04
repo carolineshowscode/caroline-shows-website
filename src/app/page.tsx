@@ -1,5 +1,6 @@
 import InspirationalQuote from "@/components/inspirationalQuote";
 import ResumeButton from "@/components/resumeButton";
+import Socials from "@/components/socials";
 import Image from 'next/image';
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
           <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl w-full m-2' alt='Caroline' />
         </div>
       </div>
-      <div className='bg-accent border-b-2 text-wrap p-4 sm:flex flex-col justify-center'>
-        <p className='flex sm:w-1/2 text-black font-dosis'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
+      <div className='flex justify-center bg-accent border-b-2 text-wrap p-4'>
+        <p className='text-black font-dosis text- sm:w-1/2 text-left sm:text-center'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
       <div className='flex flex-row p-4 dark:bg-white'>
@@ -99,6 +100,7 @@ export default function Home() {
         </div>
       </div>
       <InspirationalQuote />
+      <Socials />
     </div>
   );
 };
