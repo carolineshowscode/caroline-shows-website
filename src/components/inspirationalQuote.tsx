@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import GenerateQuoteButton from './generateQuoteButton';
 
 interface Quote {
     author: string;
@@ -35,6 +36,12 @@ export default function InspirationalQuote() {
         fetchQuote();
     }, []);
 
+    const generateQuote = () => {
+        return '';
+    };
+
+
+
     if (loading) {
         return <div className='font-playwrite bg-primary w-full h-1/4 border-t-2 p-4 text-center dark:bg-primary dark:text-black'>Loading...</div>;
     };
@@ -43,6 +50,7 @@ export default function InspirationalQuote() {
         <div className='font-playwrite bg-primary w-full h-1/4 border-t-2 p-4 text-center dark:bg-primary dark:text-black'>
             <p>{`"${quote.quote}"`}</p>
             <p className='m-2'>{`~${quote.author}`}</p>
+            <GenerateQuoteButton generateQuote={generateQuote}/>
         </div>
     );
 };
