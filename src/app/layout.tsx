@@ -16,7 +16,7 @@ const dosis = Dosis({
 });
 
 export const metadata: Metadata = {
-  title: "Caroline Eubanks Shows",
+  title: "Caroline's Personal Website",
   description: "A website all about Caroline Shows",
 };
 
