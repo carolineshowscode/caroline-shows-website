@@ -6,14 +6,14 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className='flex flex-col dark:text-black'>
-      <div className='flex border-b-2 bg-primary p-4 sm:items-center'>
-        <div className='text-lg basis-1/2 sm:flex flex-col items-center content-center'>
-          <h1 className='font-playwrite text-xl text-left sm:text-5xl'>Hi, I&apos;m Caroline.</h1>
-          <p className='sm:m-4 text-left mt-2'> I&apos;m a software engineer and I love to build things. </p>
+      <div className='flex border-b-2 bg-primary sm:items-center'>
+        <div className='basis-1/2 p-2 sm:flex flex-col items-center content-center'>
+          <h1 className='text-sm font-playwrite text-center sm:text-3xl'>Hi, I&apos;m Caroline.</h1>
+          <p className='text-sm text-center mt-2 sm:m-4 sm:text-xl'> I&apos;m a software engineer and I love to build things. </p>
           <ResumeButton />
         </div>
-        <div className='w-full sm:w-1/3'>
-          <Image src='/caroline.png' width={500} height={600} layout='responsive' className='rounded-3xl shadow-xl w-full m-2' alt='Caroline' />
+        <div className='w-full m-0 p-0 sm:w-1/3'>
+          <Image src='/profilePhoto.png' width={300} height={600} layout='responsive' className='rounded-xl m-0 p-0 w-full' alt='Caroline' />
         </div>
       </div>
       <div className='flex justify-center bg-accent border-b-2 text-wrap p-4'>
