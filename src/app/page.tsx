@@ -6,13 +6,13 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className='flex flex-col dark:text-black'>
-      <div className='flex border-b-2 bg-primary sm:items-center'>
+      <div className='flex justify-center border-b-2 bg-primary w-full sm:items-center'>
         <div className='basis-1/2 p-2 sm:flex flex-col items-center content-center'>
           <h1 className='text-sm font-playwrite text-center sm:text-3xl'>Hi, I&apos;m Caroline.</h1>
           <p className='text-sm text-center mt-2 sm:m-4 sm:text-xl'> I&apos;m a software engineer and I love to build things. </p>
           <ResumeButton />
         </div>
-        <div className='w-full m-0 p-0 sm:w-1/3'>
+        <div className='w-full m-0 p-0 sm:w-1/4'>
           <Image src='/profilePhoto.png' width={300} height={600} layout='responsive' className='rounded-xl m-0 p-0 w-full' alt='Caroline' />
         </div>
       </div>
@@ -20,8 +20,8 @@ export default function Home() {
         <p className='text-black font-dosis text- sm:w-1/2 text-left sm:text-center'>Software engineer with three years of professional experience working in the edtech industry. Proficient in front end development with extensive experience working in react frameworks with typescript. Currently expanding skill set to include back-end
         frameworks to become a more versatile full-stack developer</p>
       </div>
-      <div className='flex flex-row p-4 dark:bg-white'>
-        <div className='bg-accent border-4 grid grid-cols-1 rounded-3xl w-full max-w-max p-2 sm:flex flex-col items-center w-1/4 max-h-screen'>
+      <div className='flex flex-row p-4 sm:justify-center dark:bg-white'>
+        <div className='bg-accent border-4 grid grid-cols-1 flex-col items-center rounded-3xl max-w-max p-2 w-full max-h-screen sm:p-8'>
           <h2 className='text-center font-semibold sm:text-xl'>Technical Skills</h2>
           <Image src='/reacticon.png' width={100} height={100} alt='React Logo' className='mx-auto sm:m-4'/>
           <Image src='/awslogo.png' width={100} height={100} alt='AWS Logo' className='mx-auto sm:m-4'/>
@@ -31,7 +31,7 @@ export default function Home() {
           <Image src='/nextjslogo.png' width={100} height={100} alt='Next.js Logo' className='mx-auto sm:m-4'/>
           <Image src='/tailwindcsslogo.png' width={100} height={100} alt='Tailwind Logo' className='mx-auto sm:m-4'/>
         </div>
-        <div className='w-full'>
+        <div className='w-full sm:w-1/2'>
         <h2 className='text-xl text-center font-extrabold'>Career Timeline</h2>
           <ol className="relative border-grey border-s dark:border-darkGrey ml-4">                  
             <li className="ms-4">
