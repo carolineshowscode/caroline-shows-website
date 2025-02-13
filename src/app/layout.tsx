@@ -18,6 +18,13 @@ const dosis = Dosis({
 export const metadata: Metadata = {
   title: "Caroline's Personal Website",
   description: "A website all about Caroline Shows",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://carolineshows.com",
+    siteName: "Caroline's Personal Website",
+    images: "/icon.png",
+  },
 };
 
 export default function RootLayout({
