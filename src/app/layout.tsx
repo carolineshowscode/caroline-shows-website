@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://carolineshows.com",
     siteName: "Caroline's Personal Website",
-    images: "/icon.png",
+    images: "/websitePreview.png",
   },
 };
 
