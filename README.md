@@ -5,7 +5,10 @@ A personal website
 
 ### Features
 - Styled using Tailwind CSS and Google fonts
-- 
+- Random quote fetched from external REST API
+- Quote is saved to local storage
+- New quotes are generated on the first visit to the site or if the user selects "generate new quote" button
+- Resume document stored using AWS S3
 
 
 ### Technologies Implemented:
@@ -19,7 +22,10 @@ A personal website
 
 ### Future Updates
 
-- contact form utilizing Twilio email API for an automated "contact me"
+- automated contact form utilizing Twilio email API
+
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHp0NnVsOHdjaWt2eGw1NjZ2MWJwaWo2bHlrem01cXNnbWh6MXVvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UL2Nu44rzZTBQqXe9p/giphy.gif)
 
 
 ******************************************************************
