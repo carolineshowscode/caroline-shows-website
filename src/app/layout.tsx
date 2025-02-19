@@ -44,7 +44,7 @@ export default function RootLayout({
         </div>
         <main className='font-dosis'>{children}</main>
       </body>
-      <GoogleAnalytics gaId="G-NG8HFSTJFP" />
+      <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID} />
     </html>
   );
 }
