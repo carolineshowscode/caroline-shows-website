@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Playwrite_IN, Dosis } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/nav";
@@ -43,6 +44,7 @@ export default function RootLayout({
         </div>
         <main className='font-dosis'>{children}</main>
       </body>
+      <GoogleAnalytics gaId="G-NG8HFSTJFP" />
     </html>
   );
 }
