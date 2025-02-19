@@ -1,29 +1,37 @@
-# Tic Tac Toe
+# Caroline's Personal Website
 
 ### Description
-A personal website application 
+A personal website
 
-### How it Works
-- Users play the game by choosing their WandaVision character(aka Player 1 or Player 2)
-- A winner is announced each time a player gets three of their icons in a row
-- If no one wins a round, the game is a draw and neither player receives a point
-- The winner's scores are displayed after each win and will persist on page refresh
+### Features
+- Styled using Tailwind CSS and Google fonts
+- Random quote fetched from external REST API
+- Quote is saved to local storage
+- New quotes are generated on the first visit to the site or if the user selects "generate new quote" button
+- Resume document stored using AWS S3
 
 
 ### Technologies Implemented:
 - Next.js
 - Typescript
 - Tailwind CSS
+- AWS S3
+- Local Storage
+- Quote API
+- Vercel (deployment)
 
 ### Future Updates
+
+- automated contact form utilizing Twilio email API
+
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHp0NnVsOHdjaWt2eGw1NjZ2MWJwaWo2bHlrem01cXNnbWh6MXVvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UL2Nu44rzZTBQqXe9p/giphy.gif)
 
 
 ******************************************************************
 
 #### Contributors:
 - Caroline Eubanks
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -32,30 +40,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
